@@ -8,6 +8,8 @@
   }
 }
 
-.flash {
+.animated .flash,.animated.flash {
   animation-name: flash;
+  animation-duration: 1s;
+  animation-fill-mode: both;
 }

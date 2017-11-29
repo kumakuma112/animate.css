@@ -13,6 +13,8 @@
   }
 }
 
-.zoomOutDown {
+.animated .zoomOutDown,.animated.zoomOutDown {
   animation-name: zoomOutDown;
+  animation-duration: 1s;
+  animation-fill-mode: both;
 }

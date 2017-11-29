@@ -9,6 +9,8 @@
   }
 }
 
-.fadeOutRightBig {
+.animated .fadeOutRightBig,.animated.fadeOutRightBig {
   animation-name: fadeOutRightBig;
+  animation-duration: 1s;
+  animation-fill-mode: both;
 }

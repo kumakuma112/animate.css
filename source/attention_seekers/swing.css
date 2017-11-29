@@ -20,7 +20,9 @@
   }
 }
 
-.swing {
+.animated .swing,.animated.swing {
   transform-origin: top center;
   animation-name: swing;
+  animation-duration: 1s;
+  animation-fill-mode: both;
 }

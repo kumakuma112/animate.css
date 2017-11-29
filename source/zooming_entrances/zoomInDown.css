@@ -12,6 +12,8 @@
   }
 }
 
-.zoomInDown {
+.animated .zoomInDown,.animated.zoomInDown {
   animation-name: zoomInDown;
+  animation-duration: 1s;
+  animation-fill-mode: both;
 }

@@ -12,6 +12,8 @@
   }
 }
 
-.rotateInDownRight {
+.animated .rotateInDownRight,.animated.rotateInDownRight {
   animation-name: rotateInDownRight;
+  animation-duration: 1s;
+  animation-fill-mode: both;
 }

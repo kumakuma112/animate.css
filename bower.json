@@ -1,6 +1,6 @@
 {
-  "name": "animate.css",
-  "main": "./animate.css",
+  "name": "animate.custom.css",
+  "main": "./animate.custom.css",
   "ignore": [
     ".*",
     "*.yml",

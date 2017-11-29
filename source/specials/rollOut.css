@@ -11,6 +11,8 @@
   }
 }
 
-.rollOut {
+.animated .rollOut,.animated.rollOut {
   animation-name: rollOut;
+  animation-duration: 1s;
+  animation-fill-mode: both;
 }

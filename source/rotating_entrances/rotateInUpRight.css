@@ -12,6 +12,8 @@
   }
 }
 
-.rotateInUpRight {
+.animated .rotateInUpRight,.animated.rotateInUpRight {
   animation-name: rotateInUpRight;
+  animation-duration: 1s;
+  animation-fill-mode: both;
 }

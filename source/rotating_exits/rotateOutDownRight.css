@@ -11,6 +11,8 @@
   }
 }
 
-.rotateOutDownRight {
+.animated .rotateOutDownRight,.animated.rotateOutDownRight {
   animation-name: rotateOutDownRight;
+  animation-duration: 1s;
+  animation-fill-mode: both;
 }

@@ -10,6 +10,8 @@
   }
 }
 
-.fadeInRightBig {
+.animated .fadeInRightBig,.animated.fadeInRightBig {
   animation-name: fadeInRightBig;
+  animation-duration: 1s;
+  animation-fill-mode: both;
 }

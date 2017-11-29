@@ -28,6 +28,8 @@
   }
 }
 
-.rubberBand {
+.animated .rubberBand,.animated.rubberBand {
   animation-name: rubberBand;
+  animation-duration: 1s;
+  animation-fill-mode: both;
 }

@@ -10,6 +10,8 @@
   }
 }
 
-.fadeInDownBig {
+.animated .fadeInDownBig,.animated.fadeInDownBig {
   animation-name: fadeInDownBig;
+  animation-duration: 1s;
+  animation-fill-mode: both;
 }

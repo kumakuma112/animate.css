@@ -9,6 +9,8 @@
   }
 }
 
-.slideInRight {
+.animated .slideInRight,.animated.slideInRight {
   animation-name: slideInRight;
+  animation-duration: 1s;
+  animation-fill-mode: both;
 }

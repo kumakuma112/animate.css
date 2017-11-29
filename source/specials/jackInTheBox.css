@@ -19,6 +19,8 @@
   }
 }
 
-.jackInTheBox {
+.animated .jackInTheBox,.animated.jackInTheBox {
   animation-name: jackInTheBox;
+  animation-duration: 1s;
+  animation-fill-mode: both;
 }

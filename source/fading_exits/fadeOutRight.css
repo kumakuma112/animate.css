@@ -9,6 +9,8 @@
   }
 }
 
-.fadeOutRight {
+.animated .fadeOutRight,.animated.fadeOutRight {
   animation-name: fadeOutRight;
+  animation-duration: 1s;
+  animation-fill-mode: both;
 }

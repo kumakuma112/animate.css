@@ -26,6 +26,8 @@
   }
 }
 
-.bounceInRight {
+.animated .bounceInRight,.animated.bounceInRight {
   animation-name: bounceInRight;
+  animation-duration: 1s;
+  animation-fill-mode: both;
 }

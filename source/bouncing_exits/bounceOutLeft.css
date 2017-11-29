@@ -10,6 +10,8 @@
   }
 }
 
-.bounceOutLeft {
+.animated .bounceOutLeft,.animated.bounceOutLeft {
   animation-name: bounceOutLeft;
+  animation-duration: 1s;
+  animation-fill-mode: both;
 }

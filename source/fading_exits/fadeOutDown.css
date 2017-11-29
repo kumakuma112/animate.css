@@ -9,6 +9,8 @@
   }
 }
 
-.fadeOutDown {
+.animated .fadeOutDown,.animated.fadeOutDown {
   animation-name: fadeOutDown;
+  animation-duration: 1s;
+  animation-fill-mode: both;
 }

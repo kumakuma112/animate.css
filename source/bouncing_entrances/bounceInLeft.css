@@ -26,6 +26,8 @@
   }
 }
 
-.bounceInLeft {
+.animated .bounceInLeft,.animated.bounceInLeft {
   animation-name: bounceInLeft;
+  animation-duration: 1s;
+  animation-fill-mode: both;
 }

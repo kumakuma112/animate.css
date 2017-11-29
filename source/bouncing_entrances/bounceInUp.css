@@ -26,6 +26,8 @@
   }
 }
 
-.bounceInUp {
+.animated .bounceInUp,.animated.bounceInUp {
   animation-name: bounceInUp;
+  animation-duration: 1s;
+  animation-fill-mode: both;
 }

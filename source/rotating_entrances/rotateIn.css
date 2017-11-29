@@ -12,6 +12,8 @@
   }
 }
 
-.rotateIn {
+.animated .rotateIn,.animated.rotateIn {
   animation-name: rotateIn;
+  animation-duration: 1s;
+  animation-fill-mode: both;
 }

@@ -13,6 +13,8 @@
   }
 }
 
-.zoomOutUp {
+.animated .zoomOutUp,.animated.zoomOutUp {
   animation-name: zoomOutUp;
+  animation-duration: 1s;
+  animation-fill-mode: both;
 }

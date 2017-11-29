@@ -24,7 +24,9 @@
   }
 }
 
-.headShake {
+.animated .headShake,.animated.headShake {
   animation-timing-function: ease-in-out;
   animation-name: headShake;
+  animation-duration: 1s;
+  animation-fill-mode: both;
 }

@@ -11,6 +11,8 @@
   }
 }
 
-.rotateOutUpLeft {
+.animated .rotateOutUpLeft,.animated.rotateOutUpLeft {
   animation-name: rotateOutUpLeft;
+  animation-duration: 1s;
+  animation-fill-mode: both;
 }

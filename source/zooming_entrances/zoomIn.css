@@ -9,6 +9,8 @@
   }
 }
 
-.zoomIn {
+.animated .zoomIn,.animated.zoomIn {
   animation-name: zoomIn;
+  animation-duration: 1s;
+  animation-fill-mode: both;
 }

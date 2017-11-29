@@ -9,7 +9,9 @@
   }
 }
 
-.lightSpeedOut {
+.animated .lightSpeedOut,.animated.lightSpeedOut {
   animation-name: lightSpeedOut;
   animation-timing-function: ease-in;
+  animation-duration: 1s;
+  animation-fill-mode: both;
 }

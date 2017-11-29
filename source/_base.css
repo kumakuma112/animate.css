@@ -1,19 +1,19 @@
-.animated {
+/*.animated {
   animation-duration: 1s;
   animation-fill-mode: both;
-}
+}*/
 
-.animated.infinite {
+.animated .infinite,.animated.infinite {
   animation-iteration-count: infinite;
 }
 
-.animated.hinge {
+.animated .hinge,.animated.hinge {
   animation-duration: 2s;
 }
 
-.animated.flipOutX,
-.animated.flipOutY,
-.animated.bounceIn,
-.animated.bounceOut {
+.animated .flipOutX,.animated.flipOutX,
+.animated .flipOutY,.animated.flipOutY,
+.animated .bounceIn,.animated.bounceIn,
+.animated .bounceOut,.animated.bounceOut {
   animation-duration: .75s;
 }

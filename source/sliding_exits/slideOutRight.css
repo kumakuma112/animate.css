@@ -9,6 +9,8 @@
   }
 }
 
-.slideOutRight {
+.animated .slideOutRight,.animated.slideOutRight {
   animation-name: slideOutRight;
+  animation-duration: 1s;
+  animation-fill-mode: both;
 }

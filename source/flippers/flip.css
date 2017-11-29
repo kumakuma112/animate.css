@@ -25,7 +25,9 @@
   }
 }
 
-.animated.flip {
+.animated .flip,.animated.flip {
   backface-visibility: visible;
   animation-name: flip;
+  animation-duration: 1s;
+  animation-fill-mode: both;
 }

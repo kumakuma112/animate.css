@@ -8,6 +8,8 @@
   }
 }
 
-.fadeIn {
+.animated .fadeIn,.animated.fadeIn {
   animation-name: fadeIn;
+  animation-duration: 1s;
+  animation-fill-mode: both;
 }

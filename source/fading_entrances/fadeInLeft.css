@@ -10,6 +10,8 @@
   }
 }
 
-.fadeInLeft {
+.animated .fadeInLeft,.animated.fadeInLeft {
   animation-name: fadeInLeft;
+  animation-duration: 1s;
+  animation-fill-mode: both;
 }

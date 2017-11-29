@@ -11,6 +11,8 @@
   }
 }
 
-.rotateOut {
+.animated .rotateOut,.animated.rotateOut {
   animation-name: rotateOut;
+  animation-duration: 1s;
+  animation-fill-mode: both;
 }

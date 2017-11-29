@@ -30,6 +30,8 @@
   }
 }
 
-.wobble {
+.animated .wobble,.animated.wobble {
   animation-name: wobble;
+  animation-duration: 1s;
+  animation-fill-mode: both;
 }

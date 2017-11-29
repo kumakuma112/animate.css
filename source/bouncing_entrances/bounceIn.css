@@ -31,6 +31,8 @@
   }
 }
 
-.bounceIn {
+.animated .bounceIn,.animated.bounceIn {
   animation-name: bounceIn;
+  animation-duration: 1s;
+  animation-fill-mode: both;
 }

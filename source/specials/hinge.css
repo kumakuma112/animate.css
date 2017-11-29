@@ -23,6 +23,8 @@
   }
 }
 
-.hinge {
+.animated .hinge,.animated.hinge {
   animation-name: hinge;
+  animation-duration: 1s;
+  animation-fill-mode: both;
 }

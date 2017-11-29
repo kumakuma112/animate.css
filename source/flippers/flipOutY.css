@@ -14,7 +14,9 @@
   }
 }
 
-.flipOutY {
+.animated .flipOutY,.animated.flipOutY {
   backface-visibility: visible !important;
   animation-name: flipOutY;
+  animation-duration: 1s;
+  animation-fill-mode: both;
 }
